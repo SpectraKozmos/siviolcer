@@ -1,0 +1,20 @@
+<!-- res/layout/fragment_second5.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Second5Fragment">
+
+    <TextView
+        android:id="@+id/textview_second5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Second5 Fragment" />
+
+    <Button
+        android:id="@+id/buttonSecond5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Another Fragment" />
+</LinearLayout>
